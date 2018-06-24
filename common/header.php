@@ -10,6 +10,8 @@
 	<?php $indexJS =  $_GET['uri'] == 'index.php' ? '<script src="/js/general.js" type="text/javascript"></script>' : ''; echo $indexJS; ?>
 	<?php $termsJS =  $_GET['uri'] == 'terms' ? '<script src="/js/terms.js" type="text/javascript"></script>' : ''; echo $termsJS; ?>
 	<script src="https://unpkg.com/vue-ckeditor2"></script>
+	<?php $faq_adminJS =  $_GET['uri'] == 'faq-admin' ? '<script src="/js/faq-admin.js" type="text/javascript"></script>' : ''; echo $faq_adminJS; ?>
+	<?php $faq =  $_GET['uri'] == 'faq' ? '<script src="/js/faq.js" type="text/javascript"></script>' : ''; echo $faq; ?>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">

@@ -356,6 +356,15 @@ body::after {
 #page5 div.form_container form input input a.arrow2 {  }
 #page5 div.form_container form input input a.arrow2 img {  }
 
+body.experto .address{
+	text-align: center;
+}
+body.experto .address p{
+	width: 80%;
+	margin: auto;
+	border-top: 1px solid #c8c7c7;
+	padding-top: 4px;
+}
 body.admin{
 	direction: rtl;
 }
@@ -380,4 +389,75 @@ body.admin .cke_container label{
 body.admin .cke_container .ckeditor{
 	display: inline-block;
 	width: 85%;
+}
+
+body.faq-admin{
+	direction: rtl;
+}
+
+body.faq-admin textarea, body.faq-admin input  {
+	width: 60%;
+}
+body.faq-admin textarea{
+	vertical-align: top; 
+	height: 60px;
+}
+
+body.faq-admin .create_q{
+
+}
+body.faq .faq-container{
+	direction: rtl;
+}
+body.faq h1{
+	text-align: center;
+}
+
+body.faq .faq-row {
+	background: #f1f1f1;
+	padding: 5px 12px;
+	margin-bottom: 8px;
+	position: relative;
+}
+body.faq .faq-row .plus_icon {
+	width: 34px;
+	height: 34px;
+	max-height: 34px;
+	display: inline-block;
+	background-image: url("../images/plus_icon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	transition: top 0.5s;
+}
+body.faq .faq-row .plus_icon.open {
+	top: 30px;
+	background: url("../images/minus_icon.png") no-repeat;
+	transition: all 0.5s;
+}
+body.faq .faq-row.open {
+	background: #e6f7ff;
+}
+body.faq .faq-row.open .views-field-title {
+	color: #1cb5ee;
+}
+body.faq .faq-row .views-field-title {
+	margin: 9px;
+	font-size: 1.3em;
+	width: 88%;
+}
+body.faq .faq-row .views-field-title span{
+	margin-right: 42px;
+}
+body.faq .faq-row .views-field-body {
+	display: none;
+	margin: 9px;
+	width: 100%;
+}
+body.faq .faq-row .views-field-body .field-content{
+	padding-right: 4.4vw;
 }

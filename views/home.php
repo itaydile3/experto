@@ -1,4 +1,4 @@
-	<body>
+	<body class="experto">
 		<div class="container" id="app">
 			<div class="top">
 				<img v-bind:src="[!resp ? './images/experto_logo.png' : './images/mobile/experto_logo.png']" alt="logo" /> 
@@ -122,6 +122,9 @@
 					</a>
 				</div>
 			</section>
+		</div>
+		<div class="address">
+			<p>כתובת: מצדה 9. מגדל ב.ס.ר 3, בני ברק  טל׳: 03-5273300</p>
 		</div>
 	</body>
 	</html>

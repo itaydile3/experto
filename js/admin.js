@@ -64,7 +64,8 @@ window.onload = function () {
 				var globalThis = this;
 				$.ajax({
 					url: 'showJson',
-					type: 'GET',
+					type: 'POST',
+					data: {type: 'home'}
 				})
 				.done(function(data){
 					var dataArray = JSON.parse(data);
